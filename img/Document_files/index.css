@@ -1,0 +1,72 @@
+/* 消除边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#__nuxt{
+    height: auto;
+}
+#layout{
+    height: auto;
+}
+div{
+    display: block;
+}
+.nav-header {
+    min-width: 1200px;
+    background-color: #000;
+    /* 内边距 */
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav{
+    background-color: #000;
+    margin: 5px;
+    height: 2rem;
+    display: flex;
+    /* 拉伸和对齐Flex容器 */
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* -webkit-box-align: center; */
+}
+
+.nav-center{
+    align-items: stretch;
+    display: flex;
+
+}
+.outside-nested-dropdown {
+    padding: 0 25px;
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+.nav-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.outside-nested-dropdown a{
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, "Microsoft Yahe", "微软雅黑";
+    text-decoration: none;
+}
+
+.outside-nested-dropdown a:hover{
+    color: rgb(24, 148, 228);
+}

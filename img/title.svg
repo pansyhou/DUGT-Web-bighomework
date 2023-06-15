@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="48px" viewBox="0 0 414 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>中文</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="中文-PC" transform="translate(6.000000, 0.000000)">
+            <rect id="矩形" x="0" y="0" width="414" height="48"></rect>
+            <text id="汇聚全球优秀青年工程师" fill="#FBFBFB" fill-rule="nonzero" font-family="FZLTZHJW--GB1-0, FZLanTingHeiS-DB-GB" font-size="36" font-weight="normal">
+                <tspan x="0" y="38">汇聚全球优秀青年工程师</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
