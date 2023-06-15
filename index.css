@@ -128,34 +128,49 @@ div{
     cursor: pointer;
 }
 
+.season-content-mask{
+    width: 1200px;
+    height: 640px;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+}
 .season-content{
     max-width: 693px;
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 4;
-    /* -webkit-transform: translate(-50%,-50%); */
     transform: translate(-50%,-50%);
 }
+
+
 .content-title {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     font-size: 21px;
 }
+
+
 .content-title .content-desc{
    color: white;
-   
+    
 }
 
+
+
+
 .joinUS{
-    /* position: relative;
+    position: relative;
     min-width: 186px;
     height: 48px;
     padding: 0 16px;
     display: inline-flex;
-
+    margin-top: 3em;
     border: none;
     border-radius: 100px;
 
@@ -169,6 +184,46 @@ div{
     line-height: 20px;
     font-weight: 400;
     white-space: nowrap;
-    text-align: center; */
+    text-align: center;
 
+}
+.timeline {
+    height: 2px;
+}
+
+
+.homelist{
+    margin: .75em auto;
+}
+
+.columns{
+    border-bottom: .75em;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: initial;
+    -ms-flex-positive: initial;
+    flex-grow: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+    margin-top: -.75rem;
+
+}
+.colums-module1{
+    max-width: 769px;
+    border-right: 2px solid #fff;
+    background: #000;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+
+.module-text{
+    display: inline-block;
 }
