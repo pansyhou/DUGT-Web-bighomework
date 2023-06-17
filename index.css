@@ -193,7 +193,8 @@ div{
 
 
 .homelist{
-    margin: .75em auto;
+    /* margin: .75em auto; */
+    margin-top: .75em;
 }
 
 .columns{
@@ -281,4 +282,100 @@ div{
     bottom: 28%;
     transform: translate(-40%,30%);
     display: inline-block;
+}
+
+.related-nav{
+    height: 4em;
+    background-color: rgb(44, 52, 67);
+}
+
+.related-nav .title {
+    /* min-height: 10em; */
+    display: flex;
+    height: 11em;
+    padding: 0.1em;
+    justify-content: center;
+}
+
+
+.title ul{
+    display: flex;
+    /* height: 2.9em; */
+    /* justify-content: space-between;  */
+    /* width: 100%; */
+    max-width: 600px; /* 可以根据实际情况设置一个最大宽度 */
+    /* margin: 0 auto;  */
+}
+
+.title li{
+    position: relative;
+    list-style:none;
+    /* background-color:rgb(44, 52, 67); */
+    /* padding: 10px; */
+} 
+
+.title.active{
+    background-color: #ccc;
+} 
+
+.title li a{
+    /* color: #000; */
+    font-family: Arial, "Microsoft Yahe", "微软雅黑";
+    font-weight: 700;
+    font-size: large;
+    padding: 0.5em;
+    height: 2.5em;
+    width: 10em;
+    line-height:2.5em;
+    text-align: center;
+    
+
+    text-decoration: none;
+} 
+
+/* .collage a:hover{
+    position: absolute;
+    top: -3em;
+    background-image:url(/img/robomaset-logo.png) ;
+} */
+
+.related-content{
+    text-align: center;
+    height: 12em;
+}
+
+
+.tab-link{
+    color:#fff;
+    display: inline-block;
+    /* background-color: #fff; */
+    cursor: pointer;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.tab-link.active {
+    background-color: #fff;
+    color:rgb(44, 52, 67) ;
+  }
+
+.tab-content {
+    display: none;
+    padding: 30px;
+    /* display: flex; */
+    /* justify-items: center; */
+    /* background-color: #f0f0f0; */
+}
+
+.tab-content.active {
+    display: block; 
+}
+
+.engineer{
+    height: 9em;
+}
+
+.agilex{
+    height: 9em;
 }
