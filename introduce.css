@@ -1,0 +1,243 @@
+.introduceBgDIV {
+  /* background-image: url(img/intIMG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  width: 100vw;
+  height: 237.9px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.introduceBgDIV img {
+
+  min-width: 100vw;
+  height: 237.9px;
+}
+
+.introduceBgDIV h1 {
+  background: rgba(21, 21, 21, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(21, 21, 21, 0.18);
+  position: absolute;
+  /* background-color: black; */
+  top: 40%;
+  left: 10%;
+  color: #fff;
+}
+
+
+
+.aboutCompition {
+  position: relative;
+  text-align: center;
+  background-color: rgb(33, 36, 46);
+  width: 100vw;
+  height: 50em;
+}
+
+.aboutCompition h2 {
+
+  background: rgba(203, 203, 203, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(203, 203, 203, 0.18);
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.aboutCompition img {
+  display: inline-block;
+  position: relative;
+  left: -20em;
+  width: 720px;
+  height: 540px;
+  margin: 100px;
+  line-height: 50em;
+}
+
+.introduceText {
+  /* min-width:1400px;
+    left:-50em;
+    margin-top: 100px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 20px; */
+  display: inline-block;
+  float: left;
+  width: 600px;
+  top: 200px;
+  position: absolute;
+  /* margin-bottom: 30px; */
+  color: #b7b8b8;
+  letter-spacing: .3px;
+  line-height: 36px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular;
+
+}
+
+.setCompition h2 {
+  background: rgba(203, 203, 203, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(203, 203, 203, 0.18);
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.setCompition {
+  position: relative;
+  background-color: rgb(33, 36, 46);
+  width: 100vw;
+  height: 32em;
+  text-align: center;
+}
+
+.setCompition7v7 {
+  display: inline;
+  height: 300px;
+  position: relative;
+  top: 3em;
+  margin: 3em;
+
+}
+
+.setCompition3v3 {
+  display: inline;
+  height: 300px;
+  position: relative;
+  top: 3em;
+  margin: 3em;
+}
+
+.card {
+  color: #fff;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background-blend-mode: multiply;
+  background-image: url(img/7v7.png);
+  background-size: 100%;
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.card:hover {
+  background-color: #1b1b1b25;
+}
+
+.card:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.card:hover .card-back {
+  transform: translateX(0);
+}
+
+
+.carIntroduce{
+  position: relative;
+  background-color: rgb(33, 36, 46);
+  width: 100vw;
+  height: 2000px;
+  text-align: center;
+}
+
+.carIntroduce h2{
+  background: rgba(203, 203, 203, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(203, 203, 203, 0.18);
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.carIntroduceMINIbox {
+    display: block;
+    position: relative;
+    width: 70em;
+    height: 20em;
+    /* background-color: aqua; */
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.carIntroduceMINIbox img{
+  float: left;
+  position: relative;
+  left: 5em;
+  width: 18em;
+  height: 18em;
+}
+.carIntroduceMINIbox p{
+  position: relative;
+  display: inline-block;
+  top: 3em;
+  left: 3em;
+  width: 30em;
+  height: 18em;
+  font-size: 21px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 700
+}
+
