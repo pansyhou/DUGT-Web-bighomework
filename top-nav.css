@@ -174,3 +174,37 @@ div{
  .bilibili{
      display: inline-block;
  }
+
+ .contactUSaddr{
+    display: block;
+    position: relative;
+    height: 260px;
+
+}
+
+.contactUSaddr .Copyright{
+    position: relative;
+    top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contactBox{
+    position: relative;
+    text-align: center;
+    /* left: -500px; */
+    /* top: 40px;*/
+    bottom: 18px; 
+    padding: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contactBox a,p{
+    padding: 20px;
+}
+
+.contactBox a,a:link,a:visited,a:active{
+    text-decoration:none;
+    color: #fff;
+}

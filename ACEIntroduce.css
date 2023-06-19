@@ -1,0 +1,210 @@
+.introduceBgDIV {
+    width: 100vw;
+    height: 237.9px;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.introduceBgDIV img {
+    min-width: 100vw;
+    height: 237.9px;
+
+}
+
+.introduceBgDIV h1 {
+    background: rgba(21, 21, 21, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    border: 1px solid rgba(21, 21, 21, 0.18);
+    position: absolute;
+    /* background-color: black; */
+    top: 40%;
+    left: 10%;
+    color: #fff;
+}
+
+.aboutACE {
+    width: 100vw;
+    padding-bottom: 18px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(33, 36, 46);
+
+}
+.aboutACE .introTEXT{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.aboutACEBox {
+    width: 90em;
+    height: 40em;
+    /* background: #000; */
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutACEBox img {
+    width: 80%;
+    height: 90%;
+}
+
+.aboutACE .intd {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.aboutACE h2 {
+
+    background: rgba(203, 203, 203, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    border: 1px solid rgba(203, 203, 203, 0.18);
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+.aboutACE p{
+    
+}
+
+.groupBox{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    position: relative;
+    width: auto;
+    justify-content: center;
+
+}
+
+.Group p{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.Group{
+    width: 300px;
+    height: 700px;
+    /* background-color: #fff; */
+    margin: 1em;
+    background: rgba( 99, 92, 92, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.Group h3{
+    color: #fff;
+    font-size: 26px;
+    margin: 10px auto;
+}
+
+
+
+#Group1{
+    background-image: url("img/英雄 拷贝.png");
+    background-size: 100%;
+    background-position: center 50px;
+    background-repeat: no-repeat;
+}
+#Group2{
+    background-image: url("img/cv.jpg");
+    background-size: 100%;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+}
+#Group3{
+    background-image: url("img/embd.jpg");
+    background-size: 100%;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+}
+#Group4{
+    background-image: url("img/hard.png");
+    background-size: 100%;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+}
+#Group5{
+    background-image: url("img/nav.png");
+    background-size: 100%;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+}
+
+#Group6{
+    background-image: url("img/media.png");
+    background-size: 100%;
+    background-position: center 70px;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
